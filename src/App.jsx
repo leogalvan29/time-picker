@@ -11,7 +11,7 @@ import Datos from './components/Datos'
 
 
 function App() {
-   const URL = '../data.json'
+   const URL = 'https://github.com/leogalvan29/time-picker/blob/main/data.json'
    const [datos, setDatos] = useState([])
    const [diario, setDiario] = useState(false)
    const [semanal, setSemanal] = useState(false)
